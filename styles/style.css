@@ -1,0 +1,30 @@
+html {
+  font-size: 16px;
+  font-family: 'Skrinkhand', cursive;
+  background-color: lightcyan;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: lightseagreen;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
