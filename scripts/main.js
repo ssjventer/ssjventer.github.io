@@ -1,15 +1,3 @@
-
-var values = ["Hello", "World","!",42,42]
-document.querySelector('h1').textContent = values[0];
-document.querySelector('h2').textContent = values[1];
-document.querySelector('h3').textContent = values[2];
-document.querySelector('h4').textContent = values[2] === values[4];
-
-function multiply(num1,num2) {
-    var result = num1 * num2;
-    return result;
-  }
-
 var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
@@ -33,7 +21,6 @@ function setUserName() {
     myHeading.textContent = 'HTML + CSS + JS, ' + myName;
 }
 
-alert(localStorage.getItem('name'));
 if(!localStorage.getItem('name')) {
     setUserName();
   } else {
